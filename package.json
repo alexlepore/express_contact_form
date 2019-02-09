@@ -1,0 +1,19 @@
+{
+  "name": "express_contact",
+  "version": "1.0.0",
+  "description": "simple contact form using express w/ mysql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
