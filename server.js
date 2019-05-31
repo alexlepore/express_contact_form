@@ -21,7 +21,7 @@ app.post("/", (req, res) => connection.query(
     "insert into basic_form_info (user_name, email_address, user_message) values (?, ?, ?)", [req.body.full_name, req.body.email_address, req.body.user_message],
     function(err, result){
         if(err){
-            throw err
+            throw err;
         }
         res.redirect("/");
     }
